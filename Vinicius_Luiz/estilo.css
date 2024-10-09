@@ -1,0 +1,72 @@
+/* INDEX */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+}
+
+h1 {
+    color: #4c53af;
+    margin-top: 40px;
+}
+
+a {
+    display: inline-block;
+    margin: 10px;
+    color: #4c53af;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #4c53af;
+    background-color: white;
+}
+
+a:hover {
+    background-color: #4c53af;
+    color: white;
+    transition: background-color 1s;
+}
+
+
+/* Estilos do formulário de postagem */
+form {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+form label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+form inpu[type="text"],
+form textarea {
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+form textarea {
+    height: 400px;
+}
+
+form input[type="submit"] {
+    background-color: #4c53af;
+    column-rule: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
